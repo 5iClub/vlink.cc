@@ -264,7 +264,7 @@
         </div>
     </div>
 
-    <div id="toast" class="toast">© 2026 閒人退散✨ 吾輩密談</div>
+    <div id="toast" class="toast">閒人退散✨ 吾輩密談</div>
 
     <script>
         document.getElementById('current-year').textContent = new Date().getFullYear();
@@ -302,7 +302,7 @@
 
         function copyText() {
             const s = document.getElementById('toast');
-            const targetText = "© 2026 閒人退散✨ 吾輩密談";
+            const targetText = "閒人退散✨ 吾輩密談";
             s.textContent = targetText;
             navigator.clipboard.writeText(targetText).then(() => {
                 showToast();
